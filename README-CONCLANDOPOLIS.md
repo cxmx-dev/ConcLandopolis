@@ -4,13 +4,15 @@ A MicropolisJ fork with ConcLand buildings and art.
 
 ## Build
 
-Requires JDK 17 and Apache Ant. From the project folder:
+Requires JDK 8 or newer (tested with JDK 17) and Apache Ant on your PATH (Ant is not bundled).
+
+From the repo root:
 
 ```
 ant
 ```
 
-This produces `ConcLandopolis.jar`.
+This produces `ConcLandopolis.jar` in the repo root.
 
 ## Run
 
@@ -18,9 +20,9 @@ This produces `ConcLandopolis.jar`.
 java -jar ConcLandopolis.jar
 ```
 
-Or on Windows, double-click `ConcLandopolis.bat` (uses `%JAVA_HOME%` if set, otherwise `java` on PATH).
+On Windows you can also run `ConcLandopolis.bat`. It uses `%JAVA_HOME%\bin\java.exe` if `JAVA_HOME` is set, otherwise `java` from PATH.
 
-City saves go to `./Save` (created on first use, relative to the working directory).
+City saves go to a `Save` folder in the directory you run the game from (the `.bat` runs from its own folder). The folder is created on first use.
 
 ## License / credit
 
