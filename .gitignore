@@ -1,0 +1,22 @@
+build
+*.jar
+docs/api
+graphics/generated
+.*.swp
+
+# Local-only (USER notes, saves, bundled Ant, build outputs)
+USER-*
+SYNC.md
+*convo*
+Save/
+tools/apache-ant*/
+tools/apache-ant*.zip
+*.class
+extlib/
+.env
+*.log
+
+# Hub wiring (local only)
+hub.kind
+_project.ps1
+start.ps1
